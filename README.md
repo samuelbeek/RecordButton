@@ -5,3 +5,5 @@ A Record Button in Swift. Inspired by [SDRecordButton](https://github.com/sebydd
 * Make the code more *swifty*
 * Add documentation 
 * Add example 
+* Add CocoaPods Support 
+* Add Carthage Support
