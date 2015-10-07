@@ -8,25 +8,21 @@
 
 class RecordButton : UIButton {
     
-    var buttonColor: UIColor! {
+    var buttonColor: UIColor! = .blueColor(){
         didSet {
             circleLayer.backgroundColor = buttonColor.CGColor
             circleBorder.borderColor = buttonColor.CGColor
-            mainColor = buttonColor
         }
     }
-    var progressColor: UIColor! {
+    var progressColor: UIColor!  = .redColor() {
         didSet {
-            progColor = self.progressColor
-            gradientMaskLayer.colors = [progColor.CGColor, progColor.CGColor]
+            gradientMaskLayer.colors = [progressColor.CGColor, progressColor.CGColor]
         }
     }
     var circleLayer: CALayer!
     var circleBorder: CALayer!
     var progressLayer: CAShapeLayer!
     var gradientMaskLayer: CAGradientLayer!
-    var mainColor: UIColor! = .blueColor()
-    var progColor: UIColor! = .redColor()
     var currentProgress: CGFloat!
     
     override init(frame: CGRect) {
@@ -49,7 +45,7 @@ class RecordButton : UIButton {
         self.backgroundColor = UIColor.clearColor()
         let layer = self.layer
         circleLayer = CALayer()
-        circleLayer.backgroundColor = mainColor.CGColor
+        circleLayer.backgroundColor = buttonColor.CGColor
         let size: CGFloat = self.frame.size.width / 1.5
         circleLayer.bounds = CGRectMake(0, 0, size, size)
         circleLayer.anchorPoint = CGPointMake(0.5, 0.5)
@@ -61,7 +57,7 @@ class RecordButton : UIButton {
             circleBorder = CALayer()
             circleBorder.backgroundColor = UIColor.clearColor().CGColor
             circleBorder.borderWidth = 1
-            circleBorder.borderColor = mainColor.CGColor
+            circleBorder.borderColor = buttonColor.CGColor
             circleBorder.bounds = CGRectMake(0, 0, self.bounds.size.width - 1.5, self.bounds.size.height - 1.5)
             circleBorder.anchorPoint = CGPointMake(0.5, 0.5)
             circleBorder.position = CGPointMake(CGRectGetMidX(self.bounds),CGRectGetMidY(self.bounds))
@@ -94,11 +90,8 @@ class RecordButton : UIButton {
         let gradientLayer = CAGradientLayer()
         gradientLayer.frame = self.bounds
         gradientLayer.locations = [0.0, 1.0]
-        if !(progColor != nil) {
-            progColor = UIColor.blueColor()
-        }
-        let topColor = progColor
-        let bottomColor = progColor
+        let topColor = progressColor
+        let bottomColor = progressColor
         gradientLayer.colors = [topColor.CGColor, bottomColor.CGColor]
         return gradientLayer
     }
@@ -125,7 +118,7 @@ class RecordButton : UIButton {
         color.duration = duration
         color.fillMode = kCAFillModeForwards
         color.removedOnCompletion = false
-        color.toValue = progColor.CGColor
+        color.toValue = progressColor.CGColor
         let circleAnimations = CAAnimationGroup()
         circleAnimations.removedOnCompletion = false
         circleAnimations.fillMode = kCAFillModeForwards
@@ -176,7 +169,7 @@ class RecordButton : UIButton {
         let color: CABasicAnimation = CABasicAnimation(keyPath: "backgroundColor")
         color.fillMode = kCAFillModeForwards
         color.removedOnCompletion = false
-        color.toValue = mainColor.CGColor
+        color.toValue = buttonColor.CGColor
         let animations: CAAnimationGroup = CAAnimationGroup()
         animations.removedOnCompletion = false
         animations.fillMode = kCAFillModeForwards
@@ -186,7 +179,7 @@ class RecordButton : UIButton {
         borderColor.duration = duration
         borderColor.fillMode = kCAFillModeForwards
         borderColor.removedOnCompletion = false
-        borderColor.toValue = mainColor.CGColor
+        borderColor.toValue = buttonColor.CGColor
         let borderScale: CABasicAnimation = CABasicAnimation(keyPath: "transform.scale")
         borderScale.fromValue = 0.88
         borderScale.toValue = 1.0
