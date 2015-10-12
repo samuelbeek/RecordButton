@@ -7,6 +7,7 @@
 
 
 A Record Button in Swift. Inspired by [SDRecordButton](https://github.com/sebyddd/SDRecordButton)
+It shows you the recording process when recording. It's great for a video recorder app with a fixed/maximum length like snapchat, vine, instragram.
 
 ![Screenshot](http://imgur.com/S69GerW.gif)
 
