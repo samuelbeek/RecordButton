@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/RecordButton.svg?style=flat)](http://cocoapods.org/pods/RecordButton)
 [![Platform](https://img.shields.io/cocoapods/p/RecordButton.svg?style=flat)](http://cocoapods.org/pods/RecordButton)
 
+
+A Record Button in Swift. Inspired by [SDRecordButton](https://github.com/sebyddd/SDRecordButton)
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -19,6 +22,11 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "RecordButton"
 ```
+
+## To Do 
+* Add documentation 
+* Add example 
+* Add Carthage Support
 
 ## Author
 
