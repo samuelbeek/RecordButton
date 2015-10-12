@@ -27,7 +27,7 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 
-pod "RecordButton", :git => "https://github.com/samuelbeek/RecordButton.git"
+pod "RecordButton"
 
 ```
 
