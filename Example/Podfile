@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'RecordButton_Example', :exclusive => true do
+  pod "RecordButton", :path => "../"
+end
+
+target 'RecordButton_Tests', :exclusive => true do
+  pod "RecordButton", :path => "../"
+
+  
+end
