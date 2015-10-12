@@ -99,7 +99,8 @@ Finally add these functions to your ViewController
     }
     
 ```
-
+## Support/Issues 
+If you have any questions, please don't hesitate to create an issue. 
 
 ## To Do 
 * Add Carthage Support
