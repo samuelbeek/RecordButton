@@ -15,7 +15,7 @@
 		709C94D516019C4883FD703EEF29341D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B87800010F0DD80A7A580AE2FC54776 /* Foundation.framework */; };
 		786F1504A9B8B6C7FF3C93A2A864895F /* RecordButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC92E6F70594DCBBA73860FD3CE4DB /* RecordButton-dummy.m */; };
 		C08EA0DE2E2EE2896939F81BB3C3C9DE /* Pods-RecordButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5109059E4A460C08157A123523EA2442 /* Pods-RecordButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7B5C42011C7CF37A20EEADF54F43A30 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D732068301D1C03657DD35B3981F0C71 /* ReplaceMe.swift */; };
+		C7B5C42011C7CF37A20EEADF54F43A30 /* RecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D732068301D1C03657DD35B3981F0C71 /* RecordButton.swift */; };
 		D910E3A5BA941361D7F65509D7C6CEFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B87800010F0DD80A7A580AE2FC54776 /* Foundation.framework */; };
 		E668D76371576D88D4236ACA039B1C51 /* RecordButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0CAF8279541326478484C66D477E3BC6 /* RecordButton.bundle */; };
 /* End PBXBuildFile section */
@@ -69,7 +69,7 @@
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BBC431C50E208CC9CE76841AD94DE76D /* Pods-RecordButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RecordButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CF5F3F74AB3897FDF0F50E97A0971B1F /* Pods-RecordButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecordButton_Example.release.xcconfig"; sourceTree = "<group>"; };
-		D732068301D1C03657DD35B3981F0C71 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		D732068301D1C03657DD35B3981F0C71 /* RecordButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RecordButton.swift; sourceTree = "<group>"; };
 		E33A454134184DEB90CD9A4035561D1B /* Pods_RecordButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecordButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA4A23AB296314B038EC5FF5DAD9E09A /* Pods-RecordButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RecordButton_Example-resources.sh"; sourceTree = "<group>"; };
 		EB5DC2D7183C0EBB93938A8CBF129A3F /* RecordButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RecordButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -184,7 +184,7 @@
 		AA83CC4142FBA641BFCE7A7BA871D992 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D732068301D1C03657DD35B3981F0C71 /* ReplaceMe.swift */,
+				D732068301D1C03657DD35B3981F0C71 /* RecordButton.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -401,7 +401,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				786F1504A9B8B6C7FF3C93A2A864895F /* RecordButton-dummy.m in Sources */,
-				C7B5C42011C7CF37A20EEADF54F43A30 /* ReplaceMe.swift in Sources */,
+				C7B5C42011C7CF37A20EEADF54F43A30 /* RecordButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

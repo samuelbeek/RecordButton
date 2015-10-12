@@ -20,8 +20,15 @@ RecordButton is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
+
 pod "RecordButton"
+
 ```
+
+Add this line add the top of the file you want to use this module in `import RecordButton`
+
+
+
 
 ## To Do 
 * Add documentation 
