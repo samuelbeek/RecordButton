@@ -21,7 +21,7 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 
-pod "RecordButton"
+pod "RecordButton", :git => "https://github.com/samuelbeek/RecordButton.git"
 
 ```
 
@@ -32,7 +32,6 @@ Add this line add the top of the file you want to use this module in `import Rec
 
 ## To Do 
 * Add documentation 
-* Add example 
 * Add Carthage Support
 
 ## Author
