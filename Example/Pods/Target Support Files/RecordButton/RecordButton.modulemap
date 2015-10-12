@@ -1,0 +1,6 @@
+framework module RecordButton {
+  umbrella header "RecordButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

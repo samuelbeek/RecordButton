@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		138E703B9F90275D313801A0D44B2A3B /* RecordButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9697AF51707EAF039B19153536C4DD9A /* RecordButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1518B858998AC38C654D5339B4B69619 /* Pods-RecordButton_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 062EF45D8B6A9655ECC7F4313A9DF393 /* Pods-RecordButton_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57233F7D34320910BA6E0BF4F05BD269 /* Pods-RecordButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A57148E8CC09A4F51C4ABE9A7CEC1CD4 /* Pods-RecordButton_Tests-dummy.m */; };
+		57B8777D570FB1824EE11DAB24C878F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B87800010F0DD80A7A580AE2FC54776 /* Foundation.framework */; };
+		60F96C55641EFA8111ADBD31589B35F4 /* Pods-RecordButton_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98DE419669C596EFC2B353A173D65159 /* Pods-RecordButton_Example-dummy.m */; };
+		709C94D516019C4883FD703EEF29341D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B87800010F0DD80A7A580AE2FC54776 /* Foundation.framework */; };
+		786F1504A9B8B6C7FF3C93A2A864895F /* RecordButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8CC92E6F70594DCBBA73860FD3CE4DB /* RecordButton-dummy.m */; };
+		C08EA0DE2E2EE2896939F81BB3C3C9DE /* Pods-RecordButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5109059E4A460C08157A123523EA2442 /* Pods-RecordButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7B5C42011C7CF37A20EEADF54F43A30 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D732068301D1C03657DD35B3981F0C71 /* ReplaceMe.swift */; };
+		D910E3A5BA941361D7F65509D7C6CEFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B87800010F0DD80A7A580AE2FC54776 /* Foundation.framework */; };
+		E668D76371576D88D4236ACA039B1C51 /* RecordButton.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0CAF8279541326478484C66D477E3BC6 /* RecordButton.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A5DD705CF7EA3EFC6BE5B061147985F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA3363E890BCD5229E4F3F71791D3E21;
+			remoteInfo = RecordButton;
+		};
+		9CE5AB62D22526F748C574416EEF082B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3A53518789C109D53DD579D9DA6F2BD4;
+			remoteInfo = "RecordButton-RecordButton";
+		};
+		DCB8627ABCF464FA7FBA9A0FB7D9CC62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA3363E890BCD5229E4F3F71791D3E21;
+			remoteInfo = RecordButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		062EF45D8B6A9655ECC7F4313A9DF393 /* Pods-RecordButton_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RecordButton_Example-umbrella.h"; sourceTree = "<group>"; };
+		0B2B7B8681173412FD14502912D14F1D /* Pods-RecordButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RecordButton_Tests-resources.sh"; sourceTree = "<group>"; };
+		0CAF8279541326478484C66D477E3BC6 /* RecordButton.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecordButton.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CCAE861A15FBD7EFD803816447B014B /* Pods-RecordButton_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RecordButton_Example-frameworks.sh"; sourceTree = "<group>"; };
+		145D1990ABA82713E540B3FAAD70AB3B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5109059E4A460C08157A123523EA2442 /* Pods-RecordButton_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RecordButton_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5B879BF0993D2A05160C316CC9AE23AA /* Pods-RecordButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RecordButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5E52BB165850F6449991FEEC92652D44 /* Pods-RecordButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RecordButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5F6DC1F7ADFAE2701368F6B34F0E96C2 /* RecordButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RecordButton.xcconfig; sourceTree = "<group>"; };
+		68E1F64815AC9513A4E468553AE35DD5 /* Pods-RecordButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RecordButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		70E0AFC576289FE6212138E197088942 /* Pods-RecordButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecordButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E91716A7CCF4408E5EB675B64F3723C /* Pods-RecordButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecordButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8447E708C234DD6586B25DE9114FB09D /* Pods-RecordButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecordButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8B87800010F0DD80A7A580AE2FC54776 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		905BC71FCCF8BE360B341AEBB8B7F9FB /* Pods-RecordButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RecordButton_Example.modulemap"; sourceTree = "<group>"; };
+		9697AF51707EAF039B19153536C4DD9A /* RecordButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RecordButton-umbrella.h"; sourceTree = "<group>"; };
+		98DE419669C596EFC2B353A173D65159 /* Pods-RecordButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RecordButton_Example-dummy.m"; sourceTree = "<group>"; };
+		98E6588FB988D3D00E7F3D9475828A99 /* RecordButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RecordButton-prefix.pch"; sourceTree = "<group>"; };
+		A57148E8CC09A4F51C4ABE9A7CEC1CD4 /* Pods-RecordButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RecordButton_Tests-dummy.m"; sourceTree = "<group>"; };
+		AA3FC5E13427436F8252512ADC99D058 /* Pods-RecordButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RecordButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B96A45B7FB00C4A2097791780AAA9353 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBC431C50E208CC9CE76841AD94DE76D /* Pods-RecordButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RecordButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CF5F3F74AB3897FDF0F50E97A0971B1F /* Pods-RecordButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecordButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D732068301D1C03657DD35B3981F0C71 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		E33A454134184DEB90CD9A4035561D1B /* Pods_RecordButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecordButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4A23AB296314B038EC5FF5DAD9E09A /* Pods-RecordButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RecordButton_Example-resources.sh"; sourceTree = "<group>"; };
+		EB5DC2D7183C0EBB93938A8CBF129A3F /* RecordButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RecordButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED560EB2A70435F0C3E9BA43DD9BF3E8 /* RecordButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RecordButton.modulemap; sourceTree = "<group>"; };
+		F39216AB003EEDD6F800A2A4013FCA7E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F56447A6EC02A7E4AC62EACD74D92A84 /* Pods_RecordButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecordButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8CC92E6F70594DCBBA73860FD3CE4DB /* RecordButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RecordButton-dummy.m"; sourceTree = "<group>"; };
+		FC4C62B112B7F80BA60A178927291771 /* Pods-RecordButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RecordButton_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5C56C2497AA92DEC9FCDA9D1453D895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				709C94D516019C4883FD703EEF29341D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7D3825EEEF6B68217869B73E714CCC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77951D33716A1B0C532C2693A05DB2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D910E3A5BA941361D7F65509D7C6CEFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBEAAF79E1595503C311CEEEEDB8C513 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B8777D570FB1824EE11DAB24C878F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D36F0C93FA78CE1FB5DCCEE91607252 /* Pods-RecordButton_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B96A45B7FB00C4A2097791780AAA9353 /* Info.plist */,
+				905BC71FCCF8BE360B341AEBB8B7F9FB /* Pods-RecordButton_Example.modulemap */,
+				68E1F64815AC9513A4E468553AE35DD5 /* Pods-RecordButton_Example-acknowledgements.markdown */,
+				AA3FC5E13427436F8252512ADC99D058 /* Pods-RecordButton_Example-acknowledgements.plist */,
+				98DE419669C596EFC2B353A173D65159 /* Pods-RecordButton_Example-dummy.m */,
+				0CCAE861A15FBD7EFD803816447B014B /* Pods-RecordButton_Example-frameworks.sh */,
+				EA4A23AB296314B038EC5FF5DAD9E09A /* Pods-RecordButton_Example-resources.sh */,
+				062EF45D8B6A9655ECC7F4313A9DF393 /* Pods-RecordButton_Example-umbrella.h */,
+				8447E708C234DD6586B25DE9114FB09D /* Pods-RecordButton_Example.debug.xcconfig */,
+				CF5F3F74AB3897FDF0F50E97A0971B1F /* Pods-RecordButton_Example.release.xcconfig */,
+			);
+			name = "Pods-RecordButton_Example";
+			path = "Target Support Files/Pods-RecordButton_Example";
+			sourceTree = "<group>";
+		};
+		4402075A2A8FD615A32D2F947B11795A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				AA83CC4142FBA641BFCE7A7BA871D992 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		53D25EA4F0EDA80F36EA8B6F51D23AF6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E33A454134184DEB90CD9A4035561D1B /* Pods_RecordButton_Example.framework */,
+				F56447A6EC02A7E4AC62EACD74D92A84 /* Pods_RecordButton_Tests.framework */,
+				0CAF8279541326478484C66D477E3BC6 /* RecordButton.bundle */,
+				EB5DC2D7183C0EBB93938A8CBF129A3F /* RecordButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8B87800010F0DD80A7A580AE2FC54776 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				B3830E2BA5866BEFAC7946D5C6B7D2A1 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				53D25EA4F0EDA80F36EA8B6F51D23AF6 /* Products */,
+				CCF53A7A1E087D82CE0A1B10D120FE36 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		999224920AE0736B57727D1C7ABD7631 /* RecordButton */ = {
+			isa = PBXGroup;
+			children = (
+				4402075A2A8FD615A32D2F947B11795A /* Pod */,
+				CEDFBE73A6C7D0F5A7376F0DC0E0B485 /* Support Files */,
+			);
+			name = RecordButton;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AA83CC4142FBA641BFCE7A7BA871D992 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D732068301D1C03657DD35B3981F0C71 /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B3830E2BA5866BEFAC7946D5C6B7D2A1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				999224920AE0736B57727D1C7ABD7631 /* RecordButton */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCF53A7A1E087D82CE0A1B10D120FE36 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D36F0C93FA78CE1FB5DCCEE91607252 /* Pods-RecordButton_Example */,
+				D91E0401A7EAEA64118B9BEC70DBE386 /* Pods-RecordButton_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CEDFBE73A6C7D0F5A7376F0DC0E0B485 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F39216AB003EEDD6F800A2A4013FCA7E /* Info.plist */,
+				ED560EB2A70435F0C3E9BA43DD9BF3E8 /* RecordButton.modulemap */,
+				5F6DC1F7ADFAE2701368F6B34F0E96C2 /* RecordButton.xcconfig */,
+				F8CC92E6F70594DCBBA73860FD3CE4DB /* RecordButton-dummy.m */,
+				98E6588FB988D3D00E7F3D9475828A99 /* RecordButton-prefix.pch */,
+				9697AF51707EAF039B19153536C4DD9A /* RecordButton-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RecordButton";
+			sourceTree = "<group>";
+		};
+		D91E0401A7EAEA64118B9BEC70DBE386 /* Pods-RecordButton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				145D1990ABA82713E540B3FAAD70AB3B /* Info.plist */,
+				FC4C62B112B7F80BA60A178927291771 /* Pods-RecordButton_Tests.modulemap */,
+				BBC431C50E208CC9CE76841AD94DE76D /* Pods-RecordButton_Tests-acknowledgements.markdown */,
+				5B879BF0993D2A05160C316CC9AE23AA /* Pods-RecordButton_Tests-acknowledgements.plist */,
+				A57148E8CC09A4F51C4ABE9A7CEC1CD4 /* Pods-RecordButton_Tests-dummy.m */,
+				5E52BB165850F6449991FEEC92652D44 /* Pods-RecordButton_Tests-frameworks.sh */,
+				0B2B7B8681173412FD14502912D14F1D /* Pods-RecordButton_Tests-resources.sh */,
+				5109059E4A460C08157A123523EA2442 /* Pods-RecordButton_Tests-umbrella.h */,
+				70E0AFC576289FE6212138E197088942 /* Pods-RecordButton_Tests.debug.xcconfig */,
+				7E91716A7CCF4408E5EB675B64F3723C /* Pods-RecordButton_Tests.release.xcconfig */,
+			);
+			name = "Pods-RecordButton_Tests";
+			path = "Target Support Files/Pods-RecordButton_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		89558E372E7AE6C74EBB3C59FCFE3267 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				138E703B9F90275D313801A0D44B2A3B /* RecordButton-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2499BDA5759B8882614DF091EF8CB2A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1518B858998AC38C654D5339B4B69619 /* Pods-RecordButton_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C994AB119B1BE545D5A393F3A80D4972 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C08EA0DE2E2EE2896939F81BB3C3C9DE /* Pods-RecordButton_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3A53518789C109D53DD579D9DA6F2BD4 /* RecordButton-RecordButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9E0E7BA5E9F2136FAE1EF648D3D539D /* Build configuration list for PBXNativeTarget "RecordButton-RecordButton" */;
+			buildPhases = (
+				97C243D191F862611C032C2F55BC1E99 /* Sources */,
+				C7D3825EEEF6B68217869B73E714CCC2 /* Frameworks */,
+				C2CF0AA1EB67DD1847E8FB531CA193B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RecordButton-RecordButton";
+			productName = "RecordButton-RecordButton";
+			productReference = 0CAF8279541326478484C66D477E3BC6 /* RecordButton.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7EEC7DA8773C26EA5BAA33C89DB081C2 /* Pods-RecordButton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D954B254415972161BFB33A70BC703F5 /* Build configuration list for PBXNativeTarget "Pods-RecordButton_Tests" */;
+			buildPhases = (
+				C8EBE3746F8D6EAEE13FE9BC166510F8 /* Sources */,
+				A5C56C2497AA92DEC9FCDA9D1453D895 /* Frameworks */,
+				C994AB119B1BE545D5A393F3A80D4972 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A805B2D16F54A98DA86FF3F4479B978 /* PBXTargetDependency */,
+			);
+			name = "Pods-RecordButton_Tests";
+			productName = "Pods-RecordButton_Tests";
+			productReference = F56447A6EC02A7E4AC62EACD74D92A84 /* Pods_RecordButton_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		904DD546B58BB585FE359AE061DD0AA3 /* Pods-RecordButton_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD21F2EE38E352FE610BBC4D43A133D /* Build configuration list for PBXNativeTarget "Pods-RecordButton_Example" */;
+			buildPhases = (
+				86E0A3ABF3BD2B833A7AC0BF02E5025E /* Sources */,
+				D77951D33716A1B0C532C2693A05DB2F /* Frameworks */,
+				A2499BDA5759B8882614DF091EF8CB2A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCD1F439CE0F619D6F071E0803D504BA /* PBXTargetDependency */,
+			);
+			name = "Pods-RecordButton_Example";
+			productName = "Pods-RecordButton_Example";
+			productReference = E33A454134184DEB90CD9A4035561D1B /* Pods_RecordButton_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA3363E890BCD5229E4F3F71791D3E21 /* RecordButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26EB1D3EA9601C8D6560C826ED69A084 /* Build configuration list for PBXNativeTarget "RecordButton" */;
+			buildPhases = (
+				71DA90F2346E4317E42B610B288195C3 /* Sources */,
+				EBEAAF79E1595503C311CEEEEDB8C513 /* Frameworks */,
+				3B62EA30A80100E6E06E61B86A6A36FE /* Resources */,
+				89558E372E7AE6C74EBB3C59FCFE3267 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C25BC1EF1909BA67476C37673CD5CF11 /* PBXTargetDependency */,
+			);
+			name = RecordButton;
+			productName = RecordButton;
+			productReference = EB5DC2D7183C0EBB93938A8CBF129A3F /* RecordButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 53D25EA4F0EDA80F36EA8B6F51D23AF6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				904DD546B58BB585FE359AE061DD0AA3 /* Pods-RecordButton_Example */,
+				7EEC7DA8773C26EA5BAA33C89DB081C2 /* Pods-RecordButton_Tests */,
+				BA3363E890BCD5229E4F3F71791D3E21 /* RecordButton */,
+				3A53518789C109D53DD579D9DA6F2BD4 /* RecordButton-RecordButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B62EA30A80100E6E06E61B86A6A36FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E668D76371576D88D4236ACA039B1C51 /* RecordButton.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2CF0AA1EB67DD1847E8FB531CA193B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71DA90F2346E4317E42B610B288195C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				786F1504A9B8B6C7FF3C93A2A864895F /* RecordButton-dummy.m in Sources */,
+				C7B5C42011C7CF37A20EEADF54F43A30 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86E0A3ABF3BD2B833A7AC0BF02E5025E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F96C55641EFA8111ADBD31589B35F4 /* Pods-RecordButton_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97C243D191F862611C032C2F55BC1E99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8EBE3746F8D6EAEE13FE9BC166510F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57233F7D34320910BA6E0BF4F05BD269 /* Pods-RecordButton_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A805B2D16F54A98DA86FF3F4479B978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RecordButton;
+			target = BA3363E890BCD5229E4F3F71791D3E21 /* RecordButton */;
+			targetProxy = DCB8627ABCF464FA7FBA9A0FB7D9CC62 /* PBXContainerItemProxy */;
+		};
+		C25BC1EF1909BA67476C37673CD5CF11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RecordButton-RecordButton";
+			target = 3A53518789C109D53DD579D9DA6F2BD4 /* RecordButton-RecordButton */;
+			targetProxy = 9CE5AB62D22526F748C574416EEF082B /* PBXContainerItemProxy */;
+		};
+		CCD1F439CE0F619D6F071E0803D504BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RecordButton;
+			target = BA3363E890BCD5229E4F3F71791D3E21 /* RecordButton */;
+			targetProxy = 0A5DD705CF7EA3EFC6BE5B061147985F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06E588824381E91A822B80A317068A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F6DC1F7ADFAE2701368F6B34F0E96C2 /* RecordButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RecordButton/RecordButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RecordButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RecordButton/RecordButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RecordButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13981EFF5D990810F156AEFA0F61E30F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8447E708C234DD6586B25DE9114FB09D /* Pods-RecordButton_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RecordButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-RecordButton_Example/Pods-RecordButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_RecordButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2AB020413F46A76DA481944ED204687A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E91716A7CCF4408E5EB675B64F3723C /* Pods-RecordButton_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RecordButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-RecordButton_Tests/Pods-RecordButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_RecordButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		40B3004AE55B5879117B57072651E7AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF5F3F74AB3897FDF0F50E97A0971B1F /* Pods-RecordButton_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RecordButton_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-RecordButton_Example/Pods-RecordButton_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_RecordButton_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		810042F5F947E3CAD90F1E2E3E4587D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F6DC1F7ADFAE2701368F6B34F0E96C2 /* RecordButton.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = RecordButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		92721F7A4128E3B5B76953E4D1ADC5FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F6DC1F7ADFAE2701368F6B34F0E96C2 /* RecordButton.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = RecordButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A75D459BF8947ABCA2AC1D7BEBB396FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70E0AFC576289FE6212138E197088942 /* Pods-RecordButton_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RecordButton_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-RecordButton_Tests/Pods-RecordButton_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_RecordButton_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C9116397041374B5609CC93D98A52072 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F6DC1F7ADFAE2701368F6B34F0E96C2 /* RecordButton.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RecordButton/RecordButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RecordButton/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RecordButton/RecordButton.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RecordButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26EB1D3EA9601C8D6560C826ED69A084 /* Build configuration list for PBXNativeTarget "RecordButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06E588824381E91A822B80A317068A64 /* Debug */,
+				C9116397041374B5609CC93D98A52072 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D954B254415972161BFB33A70BC703F5 /* Build configuration list for PBXNativeTarget "Pods-RecordButton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A75D459BF8947ABCA2AC1D7BEBB396FB /* Debug */,
+				2AB020413F46A76DA481944ED204687A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFD21F2EE38E352FE610BBC4D43A133D /* Build configuration list for PBXNativeTarget "Pods-RecordButton_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13981EFF5D990810F156AEFA0F61E30F /* Debug */,
+				40B3004AE55B5879117B57072651E7AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9E0E7BA5E9F2136FAE1EF648D3D539D /* Build configuration list for PBXNativeTarget "RecordButton-RecordButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				92721F7A4128E3B5B76953E4D1ADC5FA /* Debug */,
+				810042F5F947E3CAD90F1E2E3E4587D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

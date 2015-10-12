@@ -1,0 +1,14 @@
+PODS:
+  - RecordButton (0.1.0)
+
+DEPENDENCIES:
+  - RecordButton (from `../`)
+
+EXTERNAL SOURCES:
+  RecordButton:
+    :path: ../
+
+SPEC CHECKSUMS:
+  RecordButton: d1a7b1b0c10cb1c86bcf600dc09aa7695b1aadd6
+
+COCOAPODS: 0.39.0.beta.4
