@@ -8,11 +8,16 @@
 
 A Record Button in Swift. Inspired by [SDRecordButton](https://github.com/sebyddd/SDRecordButton)
 
-## Usage
+![Screenshot](http://zippy.gfycat.com/ComfortableCoordinatedDungbeetle.gif)
+
+## Requirements
+
+iOS 8 and higher
+
+## Example Project
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
 
 ## Installation
 
@@ -28,15 +33,83 @@ pod "RecordButton", :git => "https://github.com/samuelbeek/RecordButton.git"
 Add this line add the top of the file you want to use this module in `import RecordButton`
 
 
+## Usage 
+
+### Add a simple RecordButton
+
+Add this to `viewDidLoad`
+
+```swift 
+
+let recordButton = RecordButton(frame: CGRectMake(0,0,70,70))
+view.addSubview(recordButton) 
+
+``` 
+
+### Update progress 
+*it's the easiest to just check out the example project for this.*
+
+To update progress the RecordButton must be an instance of the class. You should also add a `progressTimer` and a `progress` variable, like this: 
+
+```swift 
+
+class ViewController: UIViewController {
+
+	var recordButton : RecordButton!
+	var progressTimer : NSTimer!
+	var progress : CGFloat! = 0
+	
+	// rest of viewController 
+	
+```
+
+The `recordButton` needs a target for start and stopping the progress timer. Add this code after initialization of the `recordButton` (usualy in `viewDidLoad()`)
+
+```swift
+
+recordButton.addTarget(self, action: "record", forControlEvents: .TouchDown)
+recordButton.addTarget(self, action: "stop", forControlEvents: UIControlEvents.TouchUpInside)
+
+```
+
+Finally add these functions to your ViewController 
+
+```swift
+
+    func record() {
+        self.progressTimer = NSTimer.scheduledTimerWithTimeInterval(0.05, target: self, selector: "updateProgress", userInfo: nil, repeats: true)
+    }
+    
+    func updateProgress() {
+        
+        let maxDuration = CGFloat(5) // max duration of the recordButton
+        
+        progress = progress + (CGFloat(0.05) / maxDuration)
+        recordButton.setProgress(progress)
+        
+        if progress >= 1 {
+            progressTimer.invalidate()
+        }
+        
+    }
+    
+    func stop() {
+        self.progressTimer.invalidate()
+    }
+    
+```
 
 
 ## To Do 
-* Add documentation 
 * Add Carthage Support
+* Add a delegation pattern
 
 ## Author
 
-samuelbeek, samuel.beek@gmail.com
+[samuelbeek](http://twitter.com/samuelbeek) - iOS Developer, Consultant and Occasional Designer
+
+## Acknowledgements
+This button is heavely inspired by [SDRecordButton](https://github.com/sebyddd/SDRecordButton), which is made by [Sebyddd](https://github.com/sebyddd)
 
 ## License
 

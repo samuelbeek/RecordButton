@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     A Modulair Record Button in Swift. It shows you the recording process when recording. It's great for a video recorder app with a fixed/maximum length like snapchat, vine, instragram.
                        DESC
   s.homepage         = "https://github.com/samuelbeek/RecordButton"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.screenshots      = "http://i.imgur.com/WTO3KLC.png"
   s.license          = 'MIT'
   s.author           = { "samuelbeek" => "samuel.beek@gmail.com" }
   s.source           = { :git => "https://github.com/samuelbeek/RecordButton.git", :tag => s.version.to_s }

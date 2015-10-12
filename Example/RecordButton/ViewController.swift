@@ -35,14 +35,16 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
+
     func record() {
         self.progressTimer = NSTimer.scheduledTimerWithTimeInterval(0.05, target: self, selector: "updateProgress", userInfo: nil, repeats: true)
     }
     
     func updateProgress() {
         
-        progress = progress + (CGFloat(0.05) / CGFloat(5))
+        let maxDuration = CGFloat(5) // Max duration of the recordButton
+        
+        progress = progress + (CGFloat(0.05) / maxDuration)
         recordButton.setProgress(progress)
         
         if progress >= 1 {
@@ -52,9 +54,7 @@ class ViewController: UIViewController {
     }
     
     func stop() {
-        
         self.progressTimer.invalidate()
-        
     }
     
 
