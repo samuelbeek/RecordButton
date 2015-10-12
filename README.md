@@ -8,7 +8,7 @@
 
 A Record Button in Swift. Inspired by [SDRecordButton](https://github.com/sebyddd/SDRecordButton)
 
-![Screenshot](http://zippy.gfycat.com/ComfortableCoordinatedDungbeetle.gif)
+![Screenshot](http://imgur.com/S69GerW.gif)
 
 ## Requirements
 
