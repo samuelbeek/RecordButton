@@ -12,19 +12,19 @@ import RecordButton
 class ViewController: UIViewController {
     
     var recordButton : RecordButton!
-    var progressTimer : NSTimer!
-    var progress : CGFloat! = 0
+    var progressTimer : Timer!
+    var progress : CGFloat = 0
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // set up recorder button 
-        recordButton = RecordButton(frame: CGRectMake(0,0,70,70))
+        recordButton = RecordButton(frame: CGRect(x: 0,y: 0,width: 70,height: 70))
         recordButton.center = self.view.center
-        recordButton.progressColor = .redColor()
+        recordButton.progressColor = UIColor.red
         recordButton.closeWhenFinished = false
-        recordButton.addTarget(self, action: "record", forControlEvents: .TouchDown)
-        recordButton.addTarget(self, action: "stop", forControlEvents: UIControlEvents.TouchUpInside)
+        recordButton.addTarget(self, action: #selector(ViewController.record), for: .touchDown)
+        recordButton.addTarget(self, action: #selector(ViewController.stop), for: UIControlEvents.touchUpInside)
         recordButton.center.x = self.view.center.x
         view.addSubview(recordButton)
 
@@ -37,7 +37,7 @@ class ViewController: UIViewController {
     }
 
     func record() {
-        self.progressTimer = NSTimer.scheduledTimerWithTimeInterval(0.05, target: self, selector: "updateProgress", userInfo: nil, repeats: true)
+        self.progressTimer = Timer.scheduledTimer(timeInterval: 0.05, target: self, selector: #selector(ViewController.updateProgress), userInfo: nil, repeats: true)
     }
     
     func updateProgress() {
