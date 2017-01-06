@@ -13,8 +13,8 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		6D804A6A14792C56A75604E8 /* Pods_RecordButton_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38D655252C8048E66B172E20 /* Pods_RecordButton_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		BA65E4EBA2BA0594AAEE4F23 /* Pods_RecordButton_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFEB0744D8BBCCA32F093B84 /* Pods_RecordButton_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		7FFC0CF93C218848ACF7768B /* Pods_RecordButton_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37808336B603279C30E22266 /* Pods_RecordButton_Example.framework */; };
+		933A9A04E307503CC62529E0 /* Pods_RecordButton_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97F0BE70423A901AA958C52 /* Pods_RecordButton_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A726179660D928B172A014E /* Pods-RecordButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecordButton_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RecordButton_Tests/Pods-RecordButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		0C1A240507EB5C9650E115A6 /* RecordButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RecordButton.podspec; path = ../RecordButton.podspec; sourceTree = "<group>"; };
-		347713C7E49D30A3C3F3753B /* Pods-RecordButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecordButton_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RecordButton_Tests/Pods-RecordButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		38D655252C8048E66B172E20 /* Pods_RecordButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecordButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AAC052F2A2A26AABA8B1DA0 /* Pods-RecordButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecordButton_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RecordButton_Example/Pods-RecordButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2E180B3F76D97AD3121C0AC2 /* Pods-RecordButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecordButton_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RecordButton_Example/Pods-RecordButton_Example.release.xcconfig"; sourceTree = "<group>"; };
+		37808336B603279C30E22266 /* Pods_RecordButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecordButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* RecordButton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordButton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,14 +39,14 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = RecordButton_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACE51AFB9204008FA782 /* RecordButton_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecordButton_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		65562C669964CFBFEC2A4D6F /* Pods-RecordButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecordButton_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RecordButton_Example/Pods-RecordButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		66A9F5D6A51722A44D40CCA3 /* Pods-RecordButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecordButton_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RecordButton_Example/Pods-RecordButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9AC481D9060F14FB73DAB9DA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		9B5DA61C00FA0A4F8CCBCAC0 /* Pods-RecordButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecordButton_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RecordButton_Tests/Pods-RecordButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AFEB0744D8BBCCA32F093B84 /* Pods_RecordButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecordButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD995D6FC40F5EAEB4734518 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F8B9870874AC06126658791E /* Pods-RecordButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecordButton_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RecordButton_Tests/Pods-RecordButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F97F0BE70423A901AA958C52 /* Pods_RecordButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecordButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA65E4EBA2BA0594AAEE4F23 /* Pods_RecordButton_Example.framework in Frameworks */,
+				7FFC0CF93C218848ACF7768B /* Pods_RecordButton_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D804A6A14792C56A75604E8 /* Pods_RecordButton_Tests.framework in Frameworks */,
+				933A9A04E307503CC62529E0 /* Pods_RecordButton_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,8 +76,8 @@
 				607FACD21AFB9204008FA782 /* Example for RecordButton */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				7773CD6A4E8BDFA99FC675EA /* Pods */,
-				7984316F3A8316C35E3EC3BD /* Frameworks */,
+				ABBAB0715E0E74BE90D43706 /* Pods */,
+				DE0E8F9A1541D2DB141416EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,7 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* RecordButton_Example.app */,
-				607FACE51AFB9204008FA782 /* Tests.xctest */,
+				607FACE51AFB9204008FA782 /* RecordButton_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,22 +139,22 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		7773CD6A4E8BDFA99FC675EA /* Pods */ = {
+		ABBAB0715E0E74BE90D43706 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				65562C669964CFBFEC2A4D6F /* Pods-RecordButton_Example.debug.xcconfig */,
-				4AAC052F2A2A26AABA8B1DA0 /* Pods-RecordButton_Example.release.xcconfig */,
-				9B5DA61C00FA0A4F8CCBCAC0 /* Pods-RecordButton_Tests.debug.xcconfig */,
-				347713C7E49D30A3C3F3753B /* Pods-RecordButton_Tests.release.xcconfig */,
+				66A9F5D6A51722A44D40CCA3 /* Pods-RecordButton_Example.debug.xcconfig */,
+				2E180B3F76D97AD3121C0AC2 /* Pods-RecordButton_Example.release.xcconfig */,
+				0A726179660D928B172A014E /* Pods-RecordButton_Tests.debug.xcconfig */,
+				F8B9870874AC06126658791E /* Pods-RecordButton_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		7984316F3A8316C35E3EC3BD /* Frameworks */ = {
+		DE0E8F9A1541D2DB141416EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AFEB0744D8BBCCA32F093B84 /* Pods_RecordButton_Example.framework */,
-				38D655252C8048E66B172E20 /* Pods_RecordButton_Tests.framework */,
+				37808336B603279C30E22266 /* Pods_RecordButton_Example.framework */,
+				F97F0BE70423A901AA958C52 /* Pods_RecordButton_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -166,12 +166,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "RecordButton_Example" */;
 			buildPhases = (
-				0DD0AE1B86FE5CD2D953760E /* Check Pods Manifest.lock */,
+				BF03BBD127DDD7EA90EB817F /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				BC2CE61427EB3F45A4DBBC96 /* Embed Pods Frameworks */,
-				36F0E6DA9A7E8792EB817B26 /* Copy Pods Resources */,
+				1362CC9DE8B635717B52C2E9 /* [CP] Embed Pods Frameworks */,
+				34C488E05D333C5A939E5165 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,12 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "RecordButton_Tests" */;
 			buildPhases = (
-				B0EE1B3370320E55B7818F8D /* Check Pods Manifest.lock */,
+				C47AA5806CEB9194F894519B /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				68AD2F41C44BD1EF940C9CC6 /* Embed Pods Frameworks */,
-				967975278DB5ED89129489DE /* Copy Pods Resources */,
+				1E171AE1FF4452C0794E5379 /* [CP] Embed Pods Frameworks */,
+				1EB3A6AB92D57E4DA0348853 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,7 +200,7 @@
 			);
 			name = RecordButton_Tests;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* RecordButton_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -215,9 +215,14 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = RS662E2L2G;
+						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = RS662E2L2G;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Manual;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -262,44 +267,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0DD0AE1B86FE5CD2D953760E /* Check Pods Manifest.lock */ = {
+		1362CC9DE8B635717B52C2E9 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RecordButton_Example/Pods-RecordButton_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		36F0E6DA9A7E8792EB817B26 /* Copy Pods Resources */ = {
+		1E171AE1FF4452C0794E5379 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RecordButton_Example/Pods-RecordButton_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		68AD2F41C44BD1EF940C9CC6 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,14 +297,14 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RecordButton_Tests/Pods-RecordButton_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		967975278DB5ED89129489DE /* Copy Pods Resources */ = {
+		1EB3A6AB92D57E4DA0348853 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,34 +312,49 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RecordButton_Tests/Pods-RecordButton_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B0EE1B3370320E55B7818F8D /* Check Pods Manifest.lock */ = {
+		34C488E05D333C5A939E5165 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RecordButton_Example/Pods-RecordButton_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BC2CE61427EB3F45A4DBBC96 /* Embed Pods Frameworks */ = {
+		BF03BBD127DDD7EA90EB817F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RecordButton_Example/Pods-RecordButton_Example-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C47AA5806CEB9194F894519B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -485,33 +490,38 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65562C669964CFBFEC2A4D6F /* Pods-RecordButton_Example.debug.xcconfig */;
+			baseConfigurationReference = 66A9F5D6A51722A44D40CCA3 /* Pods-RecordButton_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RS662E2L2G;
 				INFOPLIST_FILE = RecordButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AAC052F2A2A26AABA8B1DA0 /* Pods-RecordButton_Example.release.xcconfig */;
+			baseConfigurationReference = 2E180B3F76D97AD3121C0AC2 /* Pods-RecordButton_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RS662E2L2G;
 				INFOPLIST_FILE = RecordButton/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B5DA61C00FA0A4F8CCBCAC0 /* Pods-RecordButton_Tests.debug.xcconfig */;
+			baseConfigurationReference = 0A726179660D928B172A014E /* Pods-RecordButton_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RS662E2L2G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -523,15 +533,17 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecordButton_Example.app/RecordButton_Example";
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 347713C7E49D30A3C3F3753B /* Pods-RecordButton_Tests.release.xcconfig */;
+			baseConfigurationReference = F8B9870874AC06126658791E /* Pods-RecordButton_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -539,6 +551,7 @@
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecordButton_Example.app/RecordButton_Example";
 			};
 			name = Release;

@@ -1,14 +1,16 @@
 PODS:
-  - RecordButton (0.1.0)
+  - RecordButton (1.0.0)
 
 DEPENDENCIES:
   - RecordButton (from `../`)
 
 EXTERNAL SOURCES:
   RecordButton:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  RecordButton: d1a7b1b0c10cb1c86bcf600dc09aa7695b1aadd6
+  RecordButton: 53e5cea9112aa2f09dccf83e55d3c4645197b58a
 
-COCOAPODS: 0.39.0.beta.4
+PODFILE CHECKSUM: 44d882dfebcc9046464eb3ecb75406a9c8401f05
+
+COCOAPODS: 1.1.1

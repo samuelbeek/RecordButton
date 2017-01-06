@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "RecordButton"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "A Record Button in Swift."
   s.description      = <<-DESC
     A Modulair Record Button in Swift. It shows you the recording process when recording. It's great for a video recorder app with a fixed/maximum length like snapchat, vine, instragram.
