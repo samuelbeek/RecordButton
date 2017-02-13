@@ -64,8 +64,14 @@
         
     }
     
-    required public init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        
+        self.addTarget(self, action: #selector(RecordButton.didTouchDown), for: .touchDown)
+        self.addTarget(self, action: #selector(RecordButton.didTouchUp), for: .touchUpInside)
+        self.addTarget(self, action: #selector(RecordButton.didTouchUp), for: .touchUpOutside)
+        
+        self.drawButton()
     }
     
     
