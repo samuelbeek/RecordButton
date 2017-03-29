@@ -99,8 +99,8 @@
         circleBorder.cornerRadius = self.frame.size.width / 2
         layer.insertSublayer(circleBorder, at: 0)
         
-        let startAngle: CGFloat = CGFloat(M_PI) + CGFloat(M_PI_2)
-        let endAngle: CGFloat = CGFloat(M_PI) * 3 + CGFloat(M_PI_2)
+        let startAngle: CGFloat = CGFloat(Double.pi) + CGFloat(Double.pi / 2)
+        let endAngle: CGFloat = CGFloat(Double.pi) * 3 + CGFloat(Double.pi / 2)
         let centerPoint: CGPoint = CGPoint(x: self.frame.size.width / 2, y: self.frame.size.height / 2)
         gradientMaskLayer = self.gradientMask()
         progressLayer = CAShapeLayer()
@@ -177,7 +177,7 @@
         gradientLayer.locations = [0.0, 1.0]
         let topColor = progressColor
         let bottomColor = progressColor
-        gradientLayer.colors = [topColor?.cgColor, bottomColor?.cgColor]
+        gradientLayer.colors = [topColor!.cgColor, bottomColor!.cgColor]
         return gradientLayer
     }
     

@@ -49,28 +49,28 @@
 		5B879BF0993D2A05160C316CC9AE23AA /* Pods-RecordButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RecordButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5E52BB165850F6449991FEEC92652D44 /* Pods-RecordButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RecordButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		66F077D6C6F2D53B37787135145D6F9A /* Pods_RecordButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RecordButton_Tests.framework; path = "Pods-RecordButton_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		67F9A0C602B1C8D79FC7266DE38CEDE4 /* RecordButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RecordButton.framework; path = RecordButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F077D6C6F2D53B37787135145D6F9A /* Pods_RecordButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecordButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67F9A0C602B1C8D79FC7266DE38CEDE4 /* RecordButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RecordButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68E1F64815AC9513A4E468553AE35DD5 /* Pods-RecordButton_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RecordButton_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		70E0AFC576289FE6212138E197088942 /* Pods-RecordButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecordButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7E91716A7CCF4408E5EB675B64F3723C /* Pods-RecordButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecordButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		8447E708C234DD6586B25DE9114FB09D /* Pods-RecordButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecordButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		905BC71FCCF8BE360B341AEBB8B7F9FB /* Pods-RecordButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RecordButton_Example.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		905BC71FCCF8BE360B341AEBB8B7F9FB /* Pods-RecordButton_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RecordButton_Example.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98DE419669C596EFC2B353A173D65159 /* Pods-RecordButton_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RecordButton_Example-dummy.m"; sourceTree = "<group>"; };
 		98E6588FB988D3D00E7F3D9475828A99 /* RecordButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RecordButton-prefix.pch"; sourceTree = "<group>"; };
 		A57148E8CC09A4F51C4ABE9A7CEC1CD4 /* Pods-RecordButton_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RecordButton_Tests-dummy.m"; sourceTree = "<group>"; };
-		A75851E75CA2363B368BD6797C9833F3 /* Pods_RecordButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RecordButton_Example.framework; path = "Pods-RecordButton_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A75851E75CA2363B368BD6797C9833F3 /* Pods_RecordButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecordButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA3FC5E13427436F8252512ADC99D058 /* Pods-RecordButton_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RecordButton_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B96A45B7FB00C4A2097791780AAA9353 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBC431C50E208CC9CE76841AD94DE76D /* Pods-RecordButton_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RecordButton_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CF5F3F74AB3897FDF0F50E97A0971B1F /* Pods-RecordButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RecordButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E87F2FC76FFF8393156BDD69F2F761FA /* RecordButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RecordButton-umbrella.h"; sourceTree = "<group>"; };
 		EA4A23AB296314B038EC5FF5DAD9E09A /* Pods-RecordButton_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RecordButton_Example-resources.sh"; sourceTree = "<group>"; };
-		ED560EB2A70435F0C3E9BA43DD9BF3E8 /* RecordButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RecordButton.modulemap; sourceTree = "<group>"; };
+		ED560EB2A70435F0C3E9BA43DD9BF3E8 /* RecordButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RecordButton.modulemap; sourceTree = "<group>"; };
 		F39216AB003EEDD6F800A2A4013FCA7E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC4C62B112B7F80BA60A178927291771 /* Pods-RecordButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RecordButton_Tests.modulemap"; sourceTree = "<group>"; };
+		FC4C62B112B7F80BA60A178927291771 /* Pods-RecordButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RecordButton_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +117,6 @@
 			children = (
 				3171CE68AAD5C4DF42754B129D1E75EF /* RecordButton.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -152,7 +151,6 @@
 			children = (
 				2237B525DF8ABA74CE0F145002713777 /* Classes */,
 			);
-			name = Pod;
 			path = Pod;
 			sourceTree = "<group>";
 		};
@@ -325,7 +323,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0830;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -469,14 +467,18 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_RELEASE=1",
 					"$(inherited)",
@@ -490,6 +492,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -509,15 +512,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"POD_CONFIGURATION_DEBUG=1",
@@ -543,6 +550,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CF5F3F74AB3897FDF0F50E97A0971B1F /* Pods-RecordButton_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -578,6 +586,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8447E708C234DD6586B25DE9114FB09D /* Pods-RecordButton_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -614,6 +623,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7E91716A7CCF4408E5EB675B64F3723C /* Pods-RecordButton_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -649,6 +659,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 70E0AFC576289FE6212138E197088942 /* Pods-RecordButton_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
