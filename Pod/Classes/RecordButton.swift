@@ -189,11 +189,12 @@
         super.layoutSubviews()
     }
     
-    
+    @objc
     open func didTouchDown(){
         self.buttonState = .recording
     }
     
+    @objc
     open func didTouchUp() {
         if(closeWhenFinished) {
             self.setProgress(1)
