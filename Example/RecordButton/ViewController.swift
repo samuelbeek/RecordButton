@@ -60,11 +60,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    func record() {
+    @objc func record() {
         self.progressTimer = Timer.scheduledTimer(timeInterval: 0.05, target: self, selector: #selector(ViewController.updateProgress), userInfo: nil, repeats: true)
     }
     
-    func updateProgress() {
+    @objc func updateProgress() {
         
         let maxDuration = CGFloat(5) // Max duration of the recordButton
         
@@ -77,7 +77,7 @@ class ViewController: UIViewController {
         
     }
     
-    func stop() {
+    @objc func stop() {
         self.progressTimer.invalidate()
     }
     
