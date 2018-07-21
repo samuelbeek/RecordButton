@@ -68,8 +68,8 @@ The `recordButton` needs a target for start and stopping the progress timer. Add
 
 ```swift
 
-recordButton.addTarget(self, action: "record", forControlEvents: .TouchDown)
-recordButton.addTarget(self, action: "stop", forControlEvents: UIControlEvents.TouchUpInside)
+recordButton.addTarget(self, action: #selector(ViewController.record), for: .touchDown)
+recordButton.addTarget(self, action: #selector(ViewController.stop), for: UIControlEvents.touchUpInside)
 
 ```
 
@@ -77,13 +77,13 @@ Finally add these functions to your ViewController
 
 ```swift
 
-    func record() {
-        self.progressTimer = NSTimer.scheduledTimerWithTimeInterval(0.05, target: self, selector: "updateProgress", userInfo: nil, repeats: true)
+    @objc func record() {
+        self.progressTimer = Timer.scheduledTimer(timeInterval: 0.05, target: self, selector: #selector(ViewController.updateProgress), userInfo: nil, repeats: true)
     }
     
-    func updateProgress() {
+    @objc func updateProgress() {
         
-        let maxDuration = CGFloat(5) // max duration of the recordButton
+        let maxDuration = CGFloat(5) // Max duration of the recordButton
         
         progress = progress + (CGFloat(0.05) / maxDuration)
         recordButton.setProgress(progress)
@@ -94,7 +94,7 @@ Finally add these functions to your ViewController
         
     }
     
-    func stop() {
+    @objc func stop() {
         self.progressTimer.invalidate()
     }
     
