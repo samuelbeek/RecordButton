@@ -16,7 +16,7 @@ import UIKit
 
 open class RecordButton : UIButton {
     
-    open var buttonColor: UIColor! = .blue{
+    open var buttonColor: UIColor! = .blue {
         didSet {
             circleLayer.backgroundColor = buttonColor.cgColor
             circleBorder.borderColor = buttonColor.cgColor
@@ -55,7 +55,6 @@ open class RecordButton : UIButton {
     fileprivate var gradientMaskLayer: CAGradientLayer!
     fileprivate var currentProgress: CGFloat! = 0
     
-    
     override public init(frame: CGRect) {
         
         super.init(frame: frame)
@@ -64,8 +63,7 @@ open class RecordButton : UIButton {
         self.addTarget(self, action: #selector(RecordButton.didTouchUp), for: .touchUpInside)
         self.addTarget(self, action: #selector(RecordButton.didTouchUp), for: .touchUpOutside)
         
-        self.drawButton()
-        
+        self.drawButton()   
     }
     
     required public init?(coder aDecoder: NSCoder) {
@@ -172,7 +170,6 @@ open class RecordButton : UIButton {
         circleLayer.add(circleAnimations, forKey: "circleAnimations")
         progressLayer.add(fade, forKey: "fade")
         circleBorder.add(borderAnimations, forKey: "borderAnimations")
-        
     }
     
     fileprivate func gradientMask() -> CAGradientLayer {
