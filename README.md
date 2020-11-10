@@ -42,7 +42,7 @@ Add this to `viewDidLoad`
 
 ```swift 
 
-let recordButton = RecordButton(frame: CGRectMake(0,0,70,70))
+let recordButton = RecordButton(frame: CGRect(x: 0,y: 0,width: 70,height: 70))
 view.addSubview(recordButton) 
 
 ``` 
@@ -57,8 +57,8 @@ To update progress the RecordButton must be an instance of the class. You should
 class ViewController: UIViewController {
 
 	var recordButton : RecordButton!
-	var progressTimer : NSTimer!
-	var progress : CGFloat! = 0
+	var progressTimer : Timer!
+	var progress : CGFloat = 0
 	
 	// rest of viewController 
 	
@@ -68,8 +68,8 @@ The `recordButton` needs a target for start and stopping the progress timer. Add
 
 ```swift
 
-recordButton.addTarget(self, action: #selector(ViewController.record), for: .touchDown)
-recordButton.addTarget(self, action: #selector(ViewController.stop), for: UIControlEvents.touchUpInside)
+recordButton.addTarget(self, action: #selector(self.record), for: .touchDown)
+recordButton.addTarget(self, action: #selector(self.stop), for: UIControl.Event.touchUpInside)
 
 ```
 
